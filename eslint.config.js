@@ -8,6 +8,10 @@ import { globalIgnores } from 'eslint/config'
 export default tseslint.config([
   globalIgnores(['dist']),
   {
+
+    rules:{
+      "react/react-in-jsx-scope": "off"
+    },
     files: ['**/*.{ts,tsx}'],
     extends: [
       js.configs.recommended,
