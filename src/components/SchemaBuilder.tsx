@@ -1,4 +1,4 @@
-import React, { useState, useEffect, type JSX } from 'react';
+import { useState, useEffect, type JSX } from 'react';
 
 type Field = {
   id: string;
